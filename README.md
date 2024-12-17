@@ -1,6 +1,6 @@
 ## Assessing the Long Term Impacts of Opening Capital Bikeshare Stations on Traffic Volume
 
-Ibadat Jarg and Helen Wang
+Ibadat Jarg (@IbadatJarg, email: ij98@georgetown.edu) and Helen Wang (@helenw566, email: hw566@georgetown.edu)
 
 #### Abstract
 
@@ -50,6 +50,16 @@ This folder contains all the .ipynb files used to clean the data, run analyses, 
 - "02_cleaning_traffic.ipynb": This strip takes in "opened_capital_bikes.csv" and uses it to query the Traffic API. It produces the following files: "opened_cb_traffic.csv" and "unopened_cb_traffic.csv"
 - "03_merging_data.ipynb": This script merges "opened_capital_bikes.csv" and "opened_cb_traffic.csv" to create "final_data.csv"
 - "04_data_analysis.ipynb": This script contains all the code used to run our analysis, including our OLS models and Panel Data Anlysis. It produces all the latex tables stored in \visualisations\tables as well as some of the regression graphs in \visualizations\graphs
-- "05_visualizations.ipynb": This script contains the code used to create MOST but not all of our visualizations in \visualizations\graphs. This constructs most of our maps and basic linegraphs
+- "05_visualizations.ipynb": This script contains the code used to create MOST but not all of our visualizations in \visualizations\graphs. This constructs most of our maps, basic linegraphs, and bar graphs.
 - "06_proposed_stations.ipynb": This script runs the descriptive analysis used to construct on our policy recommendations. It also produces one of the visualizations present in \visualizations\graphs
-- 
+
+#### Visualizations
+
+This folder contains all of the tables and visualizations producted in our analysis. They are separated into the following folders:
+
+ - tables: This contains all of our latex tables
+ - graphs: This contains all of our maps, line graphs, and bar graphs
+
+#### Report
+
+This folder contains a .pdf of our final report that was producted in Overleaf Latex.
