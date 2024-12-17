@@ -18,6 +18,7 @@ This repository contains the following folders:
 - visualizations
   - tables
   - graphs
+ - report
 
  Descriptions of folder contents can be found below.
 
